@@ -3,3 +3,8 @@ history.txt
 history.sqlite3*
 *.db
 cache/
+
+
+# Added by cargo
+
+/target

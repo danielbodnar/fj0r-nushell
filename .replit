@@ -1,10 +1,10 @@
-modules = ["lua-5.2"]
+modules = ["lua-5.2", "nix", "rust-nightly", "docker", "bash"]
 [agent]
 expertMode = true
 
 [nix]
-channel = "stable-25_05"
-packages = ["nushell"]
+channel = "unstable"
+packages = ["nushell", "neovim"]
 
 [workflows]
 runButton = "Project"
